@@ -1,32 +1,26 @@
-# Prerequisites
-*.d
+# Force include core files
+!*.yy
+!*.gml
+!/*.yyp
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Builds for Desktop
 *.exe
-*.out
+*.zip
 *.app
+*.pkg
+
+# Builds for Mobile
+*.apk
+*.ipa
+*.xarchive
+
+# Builds for UWP
+*.appx
+*.appxupload
+
+# Builds for HTML5
+# index.html
+
+# Miscellaneous
+*.dll
+*.log
