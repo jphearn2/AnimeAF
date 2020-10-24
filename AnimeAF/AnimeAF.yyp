@@ -1,5 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"obj_PlayerBase","path":"objects/obj_PlayerBase/obj_PlayerBase.yy",},"order":0,},
+    {"id":{"name":"rm_CombatScreen","path":"rooms/rm_CombatScreen/rm_CombatScreen.yy",},"order":1,},
+    {"id":{"name":"obj_CombatSubWindow","path":"objects/obj_CombatSubWindow/obj_CombatSubWindow.yy",},"order":2,},
+    {"id":{"name":"obj_CombatMainWindow","path":"objects/obj_CombatMainWindow/obj_CombatMainWindow.yy",},"order":1,},
+    {"id":{"name":"spr_CombatSubWindow","path":"sprites/spr_CombatSubWindow/spr_CombatSubWindow.yy",},"order":1,},
+    {"id":{"name":"scp_Attack","path":"scripts/scp_Attack/scp_Attack.yy",},"order":0,},
+    {"id":{"name":"spr_CombatWindow","path":"sprites/spr_CombatWindow/spr_CombatWindow.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -16,6 +23,7 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rm_CombatScreen","path":"rooms/rm_CombatScreen/rm_CombatScreen.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
   ],
   "Folders": [
