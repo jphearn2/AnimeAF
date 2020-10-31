@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 sub_menus[0] = "Attack";
-sub_menus[1] = "Items";
+sub_menus[1] = "Item";
 sub_menus[2] = "Defend";
 sub_count = array_length(sub_menus);
 

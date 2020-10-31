@@ -8,6 +8,7 @@
     {"id":{"name":"obj_StatsWindow","path":"objects/obj_StatsWindow/obj_StatsWindow.yy",},"order":3,},
     {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},"order":1,},
     {"id":{"name":"spr_CombatSubWindow","path":"sprites/spr_CombatSubWindow/spr_CombatSubWindow.yy",},"order":1,},
+    {"id":{"name":"scp_Item","path":"scripts/scp_Item/scp_Item.yy",},"order":2,},
     {"id":{"name":"scp_Attack","path":"scripts/scp_Attack/scp_Attack.yy",},"order":0,},
     {"id":{"name":"spr_CombatWindow","path":"sprites/spr_CombatWindow/spr_CombatWindow.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
