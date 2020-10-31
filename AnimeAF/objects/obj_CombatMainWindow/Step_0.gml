@@ -20,8 +20,21 @@ else {
 		if(sub_obj != noone)
 		{
 			instance_destroy(sub_obj);
+			active = true;
 		}
-		active = true;
+	}
+	
+	else if(keyboard_check_pressed(vk_enter))
+	{
+		if(sub_obj != noone)
+		{
+			var attack_index = sub_obj.entry_index;
+			if(UseAttack(global.player.attacks[attack_index]))
+			{
+				instance_destroy(sub_obj);
+				active = true;
+			}
+		}
 	}
 	
 }

@@ -1,7 +1,8 @@
 ///@description startup
 attacks = [];
-attacks[0] = newAttack("punch", 5);
-attacks[1] = newAttack("kick", 7);
+attacks[0] = newAttack("punch", use_stat.stamina, 5, 10);
+attacks[1] = newAttack("kick", use_stat.stamina, 7, 14);
+attacks[2] = newAttack("blast", use_stat.ki, 5, 20);
 
 global.player = self;
 
