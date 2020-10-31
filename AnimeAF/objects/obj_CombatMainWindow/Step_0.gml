@@ -49,10 +49,10 @@ else {
 					break;
 				case 1 :
 					var item_index = sub_obj.entry_index;
-					UseItem(global.player.items[item_index]);
-					
-					instance_destroy(sub_obj);
-					active = true;
+					if(UseItem(global.player.items[item_index])){
+						instance_destroy(sub_obj);
+						active = true;
+					}
 					break;
 			}
 		}

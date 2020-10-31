@@ -22,6 +22,7 @@ function GetPlayerItems(){
 
 
 function UseItem(_item){
+	if(_item.qnt <= 0) return false;
 	switch(_item.healStat){
 		case stat.hp :
 			global.player.hp_curr += _item.statAmt;
@@ -39,4 +40,5 @@ function UseItem(_item){
 	
 	_item.qnt -= 1;
 	
+	return true;
 }
