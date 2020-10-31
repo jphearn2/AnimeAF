@@ -9,7 +9,7 @@ function newAttack(_name, _damage)  {
 
 function GetPlayerAttacks(){
 	var toReturn = [];
-	var player = instance_find(obj_PlayerBase, 0);
+	var player = global.player;
 	for(i = 0; i < array_length(player.attacks); i++){
 		toReturn[i] = player.attacks[i].name;
 	}

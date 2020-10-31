@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description CombatMainWindow DrawEnd
 // You can write your code in this editor
 
 for(i = 0; i < sub_count; i++)
