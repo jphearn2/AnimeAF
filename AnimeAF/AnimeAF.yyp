@@ -1,12 +1,17 @@
 {
   "resources": [
     {"id":{"name":"obj_PlayerBase","path":"objects/obj_PlayerBase/obj_PlayerBase.yy",},"order":0,},
+    {"id":{"name":"spr_PlayerDownWalk","path":"sprites/spr_PlayerDownWalk/spr_PlayerDownWalk.yy",},"order":3,},
     {"id":{"name":"spr_StatsWindow","path":"sprites/spr_StatsWindow/spr_StatsWindow.yy",},"order":2,},
+    {"id":{"name":"spr_PlayerUpWalk","path":"sprites/spr_PlayerUpWalk/spr_PlayerUpWalk.yy",},"order":6,},
     {"id":{"name":"rm_CombatScreen","path":"rooms/rm_CombatScreen/rm_CombatScreen.yy",},"order":1,},
+    {"id":{"name":"obj_PlayerOverworld","path":"objects/obj_PlayerOverworld/obj_PlayerOverworld.yy",},"order":4,},
     {"id":{"name":"obj_CombatSubWindow","path":"objects/obj_CombatSubWindow/obj_CombatSubWindow.yy",},"order":2,},
     {"id":{"name":"obj_CombatMainWindow","path":"objects/obj_CombatMainWindow/obj_CombatMainWindow.yy",},"order":1,},
+    {"id":{"name":"spr_PlayerLeftWalk","path":"sprites/spr_PlayerLeftWalk/spr_PlayerLeftWalk.yy",},"order":4,},
     {"id":{"name":"obj_StatsWindow","path":"objects/obj_StatsWindow/obj_StatsWindow.yy",},"order":3,},
     {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},"order":1,},
+    {"id":{"name":"spr_PlayerRightWalk","path":"sprites/spr_PlayerRightWalk/spr_PlayerRightWalk.yy",},"order":5,},
     {"id":{"name":"spr_CombatSubWindow","path":"sprites/spr_CombatSubWindow/spr_CombatSubWindow.yy",},"order":1,},
     {"id":{"name":"scp_Item","path":"scripts/scp_Item/scp_Item.yy",},"order":2,},
     {"id":{"name":"scp_Attack","path":"scripts/scp_Attack/scp_Attack.yy",},"order":0,},
@@ -26,9 +31,9 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"rm_CombatScreen","path":"rooms/rm_CombatScreen/rm_CombatScreen.yy",},
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_CombatScreen","path":"rooms/rm_CombatScreen/rm_CombatScreen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -50,13 +55,13 @@
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.0.529",
+    "IDEVersion": "2.3.1.536",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "AnimeAF",
   "tags": [],
   "resourceType": "GMProject",
